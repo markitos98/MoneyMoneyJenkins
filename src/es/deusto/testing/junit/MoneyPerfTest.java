@@ -1,5 +1,6 @@
 package es.deusto.testing.junit;
 
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -9,7 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.junit.Rule;
-import org.databene.contiperf.Required;
+import org.databene.contiperf.*;
 import org.databene.contiperf.PerfTest;
 import org.databene.contiperf.junit.ContiPerfRule;
 import org.databene.contiperf.report.EmptyReportModule;
